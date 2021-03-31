@@ -15,22 +15,6 @@
           "message": 1
          }
       ]
-    },
-    {
-      "owner": "vti-error-matcher",
-      "severity": "error",
-      "pattern": [
-        {
-          "regexp": "^File : (.*):(\\d+):(\\d+)$",
-          "file": 1,
-          "line": 2,
-          "column": 3
-        },
-        {
-          "regexp": "^Error: (.*)$",
-          "message": 1
-        }
-      ]
     }
   ]
 }
